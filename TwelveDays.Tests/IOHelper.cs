@@ -9,7 +9,7 @@ namespace TwelveDays.Tests
 
     public class IOHelper : IIOHelper
     {
-        public const string OutputFilePath = @"C:\Users\ImranE\code\dotnet\twelve-days-kata\TwelveDays.Tests\OutputTest.txt";
+        public const string OutputFilePath = @"C:\Users\ImranE\code\dotnet\twelve-days-of-xmas-kata\TwelveDays.Tests\OutputTest.txt";
         public void LogOutputToTextFile(string output)
         {
             File.WriteAllText(OutputFilePath, output);
